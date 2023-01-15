@@ -1,6 +1,6 @@
-import {analytics} from './modules/analytics.js'
+import { analytics } from './modules/analytics.js'
 
-const message: string = 'Hello NodeJS'
+const message = 'Hello NodeJS'
 console.log(message)
 
 analytics('Main.ts')
